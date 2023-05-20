@@ -3,7 +3,7 @@ if exists("g:loaded_bio")
 endif
 
 " Set up default colors
-let g:bio_default_colors = { "aa": "rzappo", "nt": "nucleotide" }
+let g:bio_default_colors = { "aa": "zappobg", "nt": "nucleotidebg" }
 
 
 " Check lines (in a list) for specific characters to determine the sequence
