@@ -11,16 +11,16 @@ syntax region fastqHeader   start='^@' end='\n' nextgroup=fastqSequence skipwhit
 syntax cluster biosequence add=fastqSequence
 
 
-syntax match fastqqual1  '[!-$]'      containedin=fastqquality contained
-syntax match fastqqual2  '[%-(]'      containedin=fastqquality contained
-syntax match fastqqual3  '[)-,]'      containedin=fastqquality contained
-syntax match fastqqual4  '[--/]'      containedin=fastqquality contained
-syntax match fastqqual5  '[0-4]'          containedin=fastqquality contained
-syntax match fastqqual6  '[5-9]'          containedin=fastqquality contained
-syntax match fastqqual7  '[:-<]'    containedin=fastqquality contained
+syntax match fastqqual1  '[!-$]' containedin=fastqquality contained
+syntax match fastqqual2  '[%-(]' containedin=fastqquality contained
+syntax match fastqqual3  '[)-,]' containedin=fastqquality contained
+syntax match fastqqual4  '[--/]' containedin=fastqquality contained
+syntax match fastqqual5  '[0-4]' containedin=fastqquality contained
+syntax match fastqqual6  '[5-9]' containedin=fastqquality contained
+syntax match fastqqual7  '[:-<]' containedin=fastqquality contained
 syntax match fastqqual8  '[=-@]' containedin=fastqquality contained
-syntax match fastqqual9  '[A-E]'          containedin=fastqquality contained
-syntax match fastqqual10 '[F-~]'          containedin=fastqquality contained
+syntax match fastqqual9  '[A-E]' containedin=fastqquality contained
+syntax match fastqqual10 '[F-~]' containedin=fastqquality contained
 
 hi link fastqHeader Comment
 hi link fastqComment Comment
