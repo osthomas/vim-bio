@@ -76,7 +76,7 @@ function write_syn() {
     awk -v prefix="$SCHEME$VARIANT" '
     {
         name=prefix toupper($1)
-        pattern="\"[" toupper($1) tolower($1) "]\""
+        pattern="\"[" toupper($1) tolower($1) "]\\+\""
         printf("syntax match %s %s containedin=@biosequence contained\n", name, pattern)
     }'
 }
