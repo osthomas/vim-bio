@@ -3,11 +3,13 @@ if exists('b:current_syntax')
 endif
 
 
-syntax region fastqSequence start='^.' end='\n' nextgroup=fastqComment  skipwhite
-syntax region fastqComment  start='^+' end='\n' nextgroup=fastqQuality  skipwhite
-syntax region fastqQuality  start='^.' end='\n' nextgroup=fastqHeader   skipwhite
+" Match start-of-line, not end-of-line, to avoid scanning very long lines. Rely
+" on the correct order of record components.
+syntax region fastqSequence start='^.' end='^' nextgroup=fastqQuality
+syntax region fastqComment  start='^+' end='^' nextgroup=fastqQuality
+syntax region fastqQuality  start='^.' end='^' nextgroup=fastqHeader
 " Items defined last have priority: define header last for first line match
-syntax region fastqHeader   start='^@' end='\n' nextgroup=fastqSequence skipwhite
+syntax region fastqHeader   start='^@' end='^' nextgroup=fastqSequence
 syntax cluster biosequence add=fastqSequence
 
 syntax match fastqqual1  '[!-$]\+' containedin=fastqQuality contained
