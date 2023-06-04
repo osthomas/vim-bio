@@ -1,20 +1,20 @@
 " nucleotide scheme - foreground
-syntax match nucleotidefgA "[Aa]" containedin=@biosequence contained
-syntax match nucleotidefgT "[Tt]" containedin=@biosequence contained
-syntax match nucleotidefgG "[Gg]" containedin=@biosequence contained
-syntax match nucleotidefgC "[Cc]" containedin=@biosequence contained
-syntax match nucleotidefgU "[Uu]" containedin=@biosequence contained
-syntax match nucleotidefgR "[Rr]" containedin=@biosequence contained
-syntax match nucleotidefgY "[Yy]" containedin=@biosequence contained
-syntax match nucleotidefgS "[Ss]" containedin=@biosequence contained
-syntax match nucleotidefgW "[Ww]" containedin=@biosequence contained
-syntax match nucleotidefgM "[Mm]" containedin=@biosequence contained
-syntax match nucleotidefgK "[Kk]" containedin=@biosequence contained
-syntax match nucleotidefgD "[Dd]" containedin=@biosequence contained
-syntax match nucleotidefgB "[Bb]" containedin=@biosequence contained
-syntax match nucleotidefgV "[Vv]" containedin=@biosequence contained
-syntax match nucleotidefgH "[Hh]" containedin=@biosequence contained
-syntax match nucleotidefgN "[Nn]" containedin=@biosequence contained
+syntax match nucleotidefgA "[Aa]\+" containedin=@biosequence contained
+syntax match nucleotidefgT "[Tt]\+" containedin=@biosequence contained
+syntax match nucleotidefgG "[Gg]\+" containedin=@biosequence contained
+syntax match nucleotidefgC "[Cc]\+" containedin=@biosequence contained
+syntax match nucleotidefgU "[Uu]\+" containedin=@biosequence contained
+syntax match nucleotidefgR "[Rr]\+" containedin=@biosequence contained
+syntax match nucleotidefgY "[Yy]\+" containedin=@biosequence contained
+syntax match nucleotidefgS "[Ss]\+" containedin=@biosequence contained
+syntax match nucleotidefgW "[Ww]\+" containedin=@biosequence contained
+syntax match nucleotidefgM "[Mm]\+" containedin=@biosequence contained
+syntax match nucleotidefgK "[Kk]\+" containedin=@biosequence contained
+syntax match nucleotidefgD "[Dd]\+" containedin=@biosequence contained
+syntax match nucleotidefgB "[Bb]\+" containedin=@biosequence contained
+syntax match nucleotidefgV "[Vv]\+" containedin=@biosequence contained
+syntax match nucleotidefgH "[Hh]\+" containedin=@biosequence contained
+syntax match nucleotidefgN "[Nn]\+" containedin=@biosequence contained
 
 
 highlight nucleotidefgA guifg=#47FF19 guibg=NONE

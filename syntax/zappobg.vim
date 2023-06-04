@@ -1,27 +1,27 @@
 " zappo scheme - background
-syntax match zappobgA "[Aa]" containedin=@biosequence contained
-syntax match zappobgR "[Rr]" containedin=@biosequence contained
-syntax match zappobgN "[Nn]" containedin=@biosequence contained
-syntax match zappobgD "[Dd]" containedin=@biosequence contained
-syntax match zappobgC "[Cc]" containedin=@biosequence contained
-syntax match zappobgQ "[Qq]" containedin=@biosequence contained
-syntax match zappobgE "[Ee]" containedin=@biosequence contained
-syntax match zappobgG "[Gg]" containedin=@biosequence contained
-syntax match zappobgH "[Hh]" containedin=@biosequence contained
-syntax match zappobgI "[Ii]" containedin=@biosequence contained
-syntax match zappobgL "[Ll]" containedin=@biosequence contained
-syntax match zappobgK "[Kk]" containedin=@biosequence contained
-syntax match zappobgM "[Mm]" containedin=@biosequence contained
-syntax match zappobgF "[Ff]" containedin=@biosequence contained
-syntax match zappobgP "[Pp]" containedin=@biosequence contained
-syntax match zappobgS "[Ss]" containedin=@biosequence contained
-syntax match zappobgT "[Tt]" containedin=@biosequence contained
-syntax match zappobgW "[Ww]" containedin=@biosequence contained
-syntax match zappobgY "[Yy]" containedin=@biosequence contained
-syntax match zappobgV "[Vv]" containedin=@biosequence contained
-syntax match zappobgB "[Bb]" containedin=@biosequence contained
-syntax match zappobgX "[Xx]" containedin=@biosequence contained
-syntax match zappobgZ "[Zz]" containedin=@biosequence contained
+syntax match zappobgA "[Aa]\+" containedin=@biosequence contained
+syntax match zappobgR "[Rr]\+" containedin=@biosequence contained
+syntax match zappobgN "[Nn]\+" containedin=@biosequence contained
+syntax match zappobgD "[Dd]\+" containedin=@biosequence contained
+syntax match zappobgC "[Cc]\+" containedin=@biosequence contained
+syntax match zappobgQ "[Qq]\+" containedin=@biosequence contained
+syntax match zappobgE "[Ee]\+" containedin=@biosequence contained
+syntax match zappobgG "[Gg]\+" containedin=@biosequence contained
+syntax match zappobgH "[Hh]\+" containedin=@biosequence contained
+syntax match zappobgI "[Ii]\+" containedin=@biosequence contained
+syntax match zappobgL "[Ll]\+" containedin=@biosequence contained
+syntax match zappobgK "[Kk]\+" containedin=@biosequence contained
+syntax match zappobgM "[Mm]\+" containedin=@biosequence contained
+syntax match zappobgF "[Ff]\+" containedin=@biosequence contained
+syntax match zappobgP "[Pp]\+" containedin=@biosequence contained
+syntax match zappobgS "[Ss]\+" containedin=@biosequence contained
+syntax match zappobgT "[Tt]\+" containedin=@biosequence contained
+syntax match zappobgW "[Ww]\+" containedin=@biosequence contained
+syntax match zappobgY "[Yy]\+" containedin=@biosequence contained
+syntax match zappobgV "[Vv]\+" containedin=@biosequence contained
+syntax match zappobgB "[Bb]\+" containedin=@biosequence contained
+syntax match zappobgX "[Xx]\+" containedin=@biosequence contained
+syntax match zappobgZ "[Zz]\+" containedin=@biosequence contained
 
 
 highlight zappobgA guifg=#000000 guibg=#FFAFAF
