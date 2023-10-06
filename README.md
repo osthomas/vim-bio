@@ -46,13 +46,13 @@ and set the colors accordingly. The file type is composed of two parts:
 1. The actual file type (eg. fasta)
 2. The color scheme
 
-**Example:** `fasta.nucleotidefg`
-This means that the file is a fasta file that is colorized with the
-`nucleotidfg` palette.
+**Example:** `fasta.ntfg`
+This means that the file is a fasta file that is colorized with the `ntfg`
+palette.
 
 Each color scheme comes in to variants:
 
-* ...fg (eg. *nucleotidefg*): Foreground colors
+* ...fg (eg. *ntfg*): Foreground colors
 * ...bg (eg. *zappobg*): Background colors
 
 To change the color scheme, use `set filetype=...`:
@@ -63,7 +63,7 @@ The default color schemes can be chosen for nucleotide and amino acid sequences
 by setting a variable in your `vimrc`:
 
 ```
-let g:bio_default_colors = { "aa": "zappobg", "nt": "nucleotidebg" }
+let g:bio_default_colors = { "aa": "zappobg", "nt": "ntbg" }
 ```
 
 
