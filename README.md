@@ -41,13 +41,13 @@ needs to be set), cterm colors are not available.
 `:set termguicolors` must be set.
 
 Opening a supported file will trigger autodetection of sequence type content
-and set the colors accordingly. The file type is composed of two parts:
+and set the colors accordingly. The syntax name is composed of two parts:
 
 1. The actual file type (eg. fasta)
 2. The color scheme
 
 **Example:** `fasta.ntfg`
-This means that the file is a fasta file that is colorized with the `ntfg`
+This means that the syntax is fora fasta file that is colorized with the `ntfg`
 palette.
 
 Each color scheme comes in to variants:
@@ -55,8 +55,8 @@ Each color scheme comes in to variants:
 * ...fg (eg. *ntfg*): Foreground colors
 * ...bg (eg. *zappobg*): Background colors
 
-To change the color scheme, use `set filetype=...`:
-`set filetype=fasta.zappobg` will colorize the fasta file with the Zappo
+To change the color scheme, use `set syntax=...`:
+`set syntax=fasta.zappobg` will colorize the fasta file with the Zappo
 foreground palette.
 
 The default color schemes can be chosen for nucleotide and amino acid sequences

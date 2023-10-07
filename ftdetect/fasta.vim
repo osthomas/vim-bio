@@ -8,7 +8,8 @@ function! s:GetFastaFlavor()
         endif
     endfor
     let seqtype = BioGetSequenceType(lines)
-    let &ft='fasta.' .. g:bio_default_colors[seqtype]
+    set ft=fasta
+    let &syntax='fasta.' .. g:bio_default_colors[seqtype]
 endfunction
 
 autocmd BufNewFile,BufRead *.fasta,*.fa,*.faa,*.mfa call s:GetFastaFlavor()

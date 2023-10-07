@@ -12,7 +12,8 @@ function! s:GetClustalFlavour()
         endif
     endfor
     let seqtype = BioGetSequenceType(lines)
-    let &ft='clustal.' .. g:bio_default_colors[seqtype]
+    set ft=clustal
+    let &syntax='clustal.' .. g:bio_default_colors[seqtype]
 endfunction
 
 
