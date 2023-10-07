@@ -59,6 +59,9 @@ To change the color scheme, use `set syntax=...`:
 `set syntax=fasta.zappobg` will colorize the fasta file with the Zappo
 foreground palette.
 
+`fa` and `fq` are valid shorthands for `fasta` and `fastq`, respectively:
+`set syntax=fasta.ntbg` is equivalent to `set syntax=fa.ntbg`.
+
 The default color schemes can be chosen for nucleotide and amino acid sequences
 by setting a variable in your `vimrc`:
 
