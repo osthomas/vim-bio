@@ -76,6 +76,7 @@ Color schemes were adopted from other projects:
 * *clustal* from [Jalview](https://www.jalview.org/help/html/colourSchemes/index.html)
 * *helix* from [Jalview](https://www.jalview.org/help/html/colourSchemes/index.html)
 * *hydrophobicity* from [Jalview](https://www.jalview.org/help/html/colourSchemes/index.html)
+* *nt* from [bioSyntax](https://github.com/bioSyntax/bioSyntax)
 * *purine/pyrimidine* from [Jalview](https://www.jalview.org/help/html/colourSchemes/index.html)
 * *strand* from [Jalview](https://www.jalview.org/help/html/colourSchemes/index.html)
 * *taylor* from [Jalview](https://www.jalview.org/help/html/colourSchemes/index.html)
