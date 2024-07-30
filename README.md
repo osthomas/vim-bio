@@ -47,10 +47,10 @@ and set the colors accordingly. The syntax name is composed of two parts:
 2. The color scheme
 
 **Example:** `fasta.ntfg`
-This means that the syntax is fora fasta file that is colorized with the `ntfg`
+This means that the syntax is for a fasta file that is colorized with the `ntfg`
 palette.
 
-Each color scheme comes in to variants:
+Each color scheme comes in two variants:
 
 * ...fg (eg. *ntfg*): Foreground colors
 * ...bg (eg. *zappobg*): Background colors
