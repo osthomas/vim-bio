@@ -96,3 +96,11 @@ Color schemes were adopted from other projects:
 * *taylor* from [Jalview](https://www.jalview.org/help/html/colourSchemes/index.html)
 * *turn* from [Jalview](https://www.jalview.org/help/html/colourSchemes/index.html)
 * *zappo* from [Jalview](https://www.jalview.org/help/html/colourSchemes/index.html)
+
+
+## Updating colors
+
+Color palettes are defined in `palettes/{palette}.txt` and translated into
+foreground and background variants with `palette2syntax.sh`.
+
+Run `make` after adding or changing a new palette.
