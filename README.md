@@ -12,6 +12,7 @@ file types. However, supported sequence file types are currently limited to:
 * FASTA
 * FASTQ
 * clustal
+* tabseq (see section "Tabseq" below)
 
 vim-bio attempts to detect if a file contains nucleotide or amino acid
 sequences and colorizes accordingly, but mixtures of sequence types in one file
@@ -68,6 +69,16 @@ by setting a variable in your `vimrc`:
 ```
 let g:bio_default_colors = { "aa": "zappobg", "nt": "ntbg" }
 ```
+
+
+### Tabseq
+
+Tabseq is not a real file type, but a catch-all phrase for tab-separated files
+that may contain fields with sequences. It can be used, to highlight sequences
+in `.sam` files or generic `.tsv` files, for example.
+
+The tabseq file type is never detected automatically and must be set explicitly
+with `set ft=tabseq`.
 
 
 ## Color Schemes
